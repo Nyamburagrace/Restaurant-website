@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+    <style>
+        body{background-color: rgb(212, 25, 81);
+
+        }
+        header{
+            background-color: rgb(11, 247, 11) ; font-size: 50px; text-align: center;
+        }
+        h1{ text-align: center; color: yellow; font-size: 20px;
+         }
+
+        p{color: yellow;
+           
+        }
+        form{
+            text-align: center; border: 5px; border-color: azure; border-style: dotted; 
+            margin: 5px; padding: 5px; width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>GEMA Restaurant</header>
+
+    <h1>Make your payment here</h1><br><br>
+    <p>Select your mode of payment.</p> 
+    <form action="Payments">
+<input type="radio" name="example" value="option1" onclick="window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/Restaurant%20website/M-pesa%20payment.html';">M-pesa<br><br>
+<input type="radio" name="example" value="option2" onclick="window.location.href = 'http://your-url.com';">Visa card<br><br>
+<input type="radio" name="example" value="option3">Master card<br><br>
+</form>
+   
+</body>
+</html>
